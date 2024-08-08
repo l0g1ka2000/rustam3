@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color:rgb(141, 141, 141) ;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+   
+   width: 1000px;
+   margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+main{
+    text-align: center;
+    
+}
+
+.container{
+    text-align: center;
+}
+.container img{
+    width: 1000px;
+}
+.container p{
+    width: 1000px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+    
+}
+
+article {
+    width: 450px;
+    
+    background-color: rgb(197, 197, 197);
+}
+article p{
+    font-size: 24px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+footer{
+    height: 200px;
+    background-color: black;
+    
+    
+}
+footer p{
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+    width: 1000px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
